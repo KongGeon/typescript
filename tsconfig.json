@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs"
-
+    "module": "commonjs",
+    "strictNullChecks": true //null, undefined 타입에 이상한 조작하면 에러를 띄우는 설정
     // "noImplicitAny": true, //any타입 금지 여부, any라는 타입이 의도치않게 발생할 경우 에러를 띄워주는 설정
-    // "strictNullChecks": true, //null, undefined 타입에 이상한 조작하면 에러를 띄우는 설정
 
     // "allowJs": true, // js 파일들 ts에서 import해서 쓸 수 있는지
     // "checkJs": true, // 일반 js 파일에서도 에러체크 여부

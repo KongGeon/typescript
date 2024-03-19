@@ -57,7 +57,7 @@ getArr(1, 2, 3, 4, 5); // [1, 2, 3, 4, 5]
 var obj = {};
 var arr = [];
 var func = function () { };
-var nullValue = null;
+// let nullValue: object = null;
 var date = new Date();
 var userA = {
     name: "HEROPY",
@@ -83,6 +83,7 @@ product_id = "p9023412"; // any 유형이 설정되었으므로 어떤 유형도
 // let product_id;
 product_id = 124981;
 product_id = "p9023412";
+//가능한 안쓰는 것이 좋음
 ////----------------------------- 타입 - Unknown
 var a = 123;
 var u = 123;

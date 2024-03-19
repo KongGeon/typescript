@@ -78,7 +78,7 @@ getArr(1, 2, 3, 4, 5); // [1, 2, 3, 4, 5]
 let obj: object = {};
 let arr: object = [];
 let func: object = function () {};
-let nullValue: object = null;
+// let nullValue: object = null;
 let date: object = new Date();
 
 // 이처럼 여러 타입의 상위 타입으로 인식되기 때문에 타입스크립트에서 object를 그대로 타입으로 쓰기에는 애로사항이 많다.
@@ -120,6 +120,8 @@ product_id = "p9023412"; // any 유형이 설정되었으므로 어떤 유형도
 // let product_id;
 product_id = 124981;
 product_id = "p9023412";
+
+//가능한 안쓰는 것이 좋음
 
 ////----------------------------- 타입 - Unknown
 let a: any = 123;
